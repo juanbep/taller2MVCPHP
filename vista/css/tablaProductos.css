@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 nav {
     background-color: #191919; 
     width: auto;
@@ -20,7 +19,6 @@ nav ul li{
 }
 
 nav ul li a {
-
     color: #dde0e7;
     text-decoration: none; 
     font-family: 'Playfair Display', sans-serif; 
@@ -40,7 +38,6 @@ nav ul li a:hover{
     float: right;
 }
 
-
 nav h2{
     color: #dde0e7;
     font-family: 'Playfair Display', sans-serif; 
@@ -51,14 +48,11 @@ nav h2{
     line-height: 40px;
 }
 
-
 body{
     background-color: #34495e;
     color: #fff;
     padding: 0; 
 }
-
-/*estilos para la tabla*/
 
 .contenedor{
     background-color: #dde0e7;
@@ -67,7 +61,6 @@ body{
     width: 600px;
     font-size: 12px;
 }
-
 
 .tabla{
     border-collapse: collapse; 
@@ -80,13 +73,11 @@ body{
     font-size: 15px;
 }
 
-
 .tabla th ,
 .tabla caption,
 .tabla td {
     padding: 12px 12px;
 }
-
 
 .tabla caption{
     font-weight: bolder;
@@ -94,7 +85,6 @@ body{
     background-color: #191919;
     font-size: 20px;
 }
-
 
 .tabla th {
     font-weight: bolder;
@@ -105,13 +95,11 @@ body{
     border-left: solid 1px #fff;
 }
 
-
 .tabla td{
     border-bottom: solid 1px rgb(61,68,73);
     border-right: solid 1px #fff;
     border-left: solid 1px #fff;
 }
-
 
 table tr:nth-child(even){
     background-color: rgb(61,68,73);
